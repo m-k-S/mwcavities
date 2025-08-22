@@ -1,0 +1,77 @@
+{
+  "cavity": {
+    "f_c": 13671300000.0,
+    "Q_loaded": 50000.0,
+    "geometry": "rect",
+    "dims": [
+      0.02,
+      0.002,
+      0.03932969716253538
+    ],
+    "eta_pol": 1.0,
+    "grid_N": 36,
+    "rect_mode_indices": [
+      1,
+      0,
+      3
+    ],
+    "kappa_port1_frac": 0.25,
+    "kappa_port2_frac": 0.25
+  },
+  "rydberg": {
+    "n1_eff": 81.0,
+    "n2_eff": 82.0,
+    "mu_prefactor": 1.5,
+    "tau0_0K": 1e-09,
+    "bbr_factor_300K": 0.6,
+    "gamma_phi_Hz": 200000.0,
+    "cg_factor": 0.7,
+    "use_arc": true,
+    "isotope": "Rb85",
+    "state1": [
+      81,
+      2,
+      2.5,
+      0.5
+    ],
+    "state2": [
+      82,
+      1,
+      1.5,
+      0.5
+    ],
+    "temperature_K": 300.0
+  },
+  "atoms": {
+    "N_total": 2000000,
+    "sigma_xyz_m": [
+      0.0007,
+      0.0007,
+      0.0007
+    ],
+    "center_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "N_mc": 80
+  },
+  "optics": {
+    "I780_Wm2": 200.0,
+    "w780_m": 0.005,
+    "I481_Wm2": 5000.0,
+    "w481_m": 0.003,
+    "Delta_ge_Hz": -15000000.0,
+    "Delta_er_Hz": 0.0,
+    "gamma_ge_phi_Hz": 500000.0,
+    "gamma_er_phi_Hz": 200000.0,
+    "Gamma_r_Hz": 10000.0,
+    "rabi_grid_points": 5
+  },
+  "cw": {
+    "delta_ac_Hz": 0.0,
+    "span_Hz": 40000000.0,
+    "npts": 1201
+  },
+  "description": "Optimized TE103 Thin-long achieving strong coupling"
+}

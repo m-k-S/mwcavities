@@ -1,0 +1,35 @@
+{
+  "geometry": "rect",
+  "dims": [
+    0.02,
+    0.002,
+    0.03932969716253538
+  ],
+  "rect_mode_indices": [
+    1,
+    0,
+    3
+  ],
+  "V_eff_m3": 3.717506097539031e-07,
+  "volume_m3": 1.5731878865014153e-06,
+  "Ezpf_V_per_m": 0.0011730532140580572,
+  "kappa_rad_per_s": 1717986.2258008856,
+  "kappa_Hz": 273426.0,
+  "kappa1_Hz": 68356.5,
+  "kappa2_Hz": 68356.5,
+  "dipole_Cm": 8.447619593648179e-26,
+  "used_arc": false,
+  "g0_rad_per_s": 657769.8179495508,
+  "g0_Hz": 104687.31794332711,
+  "gamma_rad_per_s": 1275985.853854918,
+  "gamma_Hz": 203079.45595634295,
+  "N_pumped": 259443.79030086112,
+  "G_rad_per_s": 2075309.8541021887,
+  "G_Hz": 330295.8217276835,
+  "cooperativity": 7.858874448516345,
+  "coupling_regime": "Strong",
+  "vacuum_rabi_splitting_Hz": 660591.643455367,
+  "effective_splitting_Hz": 616130.6330755046,
+  "measured_splitting_MHz": 0.6666666666666679,
+  "n_spectral_peaks": 2
+}

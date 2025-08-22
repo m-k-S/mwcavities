@@ -339,6 +339,12 @@ params = {
 
 
 if __name__ == "__main__":
+    def load_json(filename):
+        with open(filename, 'r') as f:
+            return json.load(f)
+    
+    strong_coupling_params = load_json("strong_coupling_params.json")
+    params = strong_coupling_params
     out, (f_off_Hz, P21, splitting_analysis, peak_info) = run_cw_pipeline(params, seed=2, make_plots_flag=True)
     
     print("\n" + "="*60)

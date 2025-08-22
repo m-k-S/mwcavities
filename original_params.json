@@ -1,0 +1,34 @@
+{
+  "cavity": {
+    "f_c": 13.6713e9,
+    "Q_loaded": 50000.0,
+    "geometry": "rect",
+    "dims": [0.016447, 0.008223, 0.029420],
+    "eta_pol": 1.0,
+    "grid_N": 36,
+    "rect_mode_indices": [2, 0, 1],
+    "kappa_port1_frac": 0.25,
+    "kappa_port2_frac": 0.25
+  },
+  "rydberg": {
+    "n1_eff": 81.0,
+    "n2_eff": 82.0,
+    "mu_prefactor": 1.5,
+    "tau0_0K": 1.0e-9,
+    "bbr_factor_300K": 0.6,
+    "gamma_phi_Hz": 200000.0,
+    "cg_factor": 0.7,
+    "use_arc": true,
+    "isotope": "Rb85",
+    "state1": [81, 2, 2.5, 0.5],
+    "state2": [82, 1, 1.5, 0.5],
+    "temperature_K": 300.0
+  },
+  "atoms": {
+    "N_total": 2000000,
+    "sigma_xyz_m": [0.0007, 0.0007, 0.0007],
+    "center_m": [0.0, 0.0, 0.0],
+    "N_mc": 80
+  },
+  "description": "Original N=81,82 Rydberg states at 13.6713 GHz with TE201 mode"
+}
